@@ -1,0 +1,61 @@
+.about-us3,
+.contact1 {
+  position: relative;
+  display: inline-block;
+  min-width: 68px;
+}
+.contact1 {
+  min-width: 61px;
+}
+.privacy-policy,
+.sitemap,
+.terms-of-use {
+  position: relative;
+  display: inline-block;
+  min-width: 104px;
+}
+.sitemap,
+.terms-of-use {
+  min-width: 62px;
+}
+.terms-of-use {
+  min-width: 96px;
+}
+.items6 {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 39.6px;
+  min-width: 608px;
+  max-width: 100%;
+}
+.all-rights-reserved {
+  position: relative;
+  text-align: right;
+}
+.bottombar {
+  width: 1184px;
+  border-top: 1px solid #d0d5dd;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 22px 0 24px;
+  max-width: 100%;
+  row-gap: 20px;
+  text-align: left;
+  font-size: 16px;
+  color: #4b5768;
+  font-family: "DM Sans";
+}
+@media screen and (max-width: 750px) {
+  .items6 {
+    flex-wrap: wrap;
+    gap: 20px;
+    min-width: 100%;
+  }
+}
